@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="//file.focus-res.cn/static/js/jquery-1.7.2.min.js"></script>
+    <!--占位符-->
+    <link rel="stylesheet" href="//simg.f.itc.cn/public_photo/fe_resource/login/stylesheets/pc/newlogin.min.css" />
+    <script type="text/javascript" src="//simg.f.itc.cn/public_photo/fe_resource/login/scripts/pc/newlogin.min.js"></script>
+    <!--占位符-->
+</head>
+<body>
+    <div id="loading" style="position: fixed; width: 100%; text-align: center;">
+    </div>
+    <div id="app"></div>
+    <script type="text/javascript">
+    // 兼容ie9下不支持console method 的call和apply方法
+    if (Function.prototype.bind && window.console && typeof console.log == "object") {
+        ["log", "info", "warn", "error", "assert", "dir", "clear", "profile", "profileEnd"].forEach(function(method) {
+            console[method] = this.bind(console[method], console);
+        }, Function.prototype.call);
+    }
+    window.domainRes = './';
+    //浏览器类型检测
+    (function getBrowserInfo() {
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        var re = /(msie|firefox|chrome|opera|version).*?([\d.]+)/;
+        var m = ua.match(re);
+        Sys.browser = m[1].replace(/version/, "'safari");
+        Sys.ver = m[2];
+        try {
+            if (Sys.browser === "msie" && parseInt(Sys.ver) < 9) {
+                alert("请升级浏览器至IE9以上！");
+                throw "browser err";
+            }
+        } catch (err) {
+            document.write(err);
+        }
+    })();
+    </script>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

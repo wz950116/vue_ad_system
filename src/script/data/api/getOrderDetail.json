@@ -1,0 +1,8 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "totalPrice": 1384,
+        "restMoney": 13874
+    }
+}

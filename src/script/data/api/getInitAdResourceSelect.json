@@ -1,0 +1,159 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "city": {
+            "current": 1,
+            "currentName": "北京",
+            "list": [
+                {
+                    "prefix": "ABCDE",
+                    "city": [
+                        {
+                            "name": "澳门",
+                            "cityId": 3
+                        },
+                        {
+                            "name": "朝阳",
+                            "cityId": 4
+                        }
+                    ]
+                },
+                {
+                    "prefix": "FGHIJ",
+                    "city": [
+                        {
+                            "name": "北京",
+                            "cityId": 1
+                        },
+                        {
+                            "name": "宝鸡",
+                            "cityId": 2
+                        }
+                    ]
+                },
+                {
+                    "prefix": "KLMNP",
+                    "city": [
+                        {
+                            "name": "北京",
+                            "cityId": 1
+                        },
+                        {
+                            "name": "宝鸡",
+                            "cityId": 2
+                        }
+                    ]
+                },
+                {
+                    "prefix": "QRSTW",
+                    "city": [
+                        {
+                            "name": "北京",
+                            "cityId": 1
+                        },
+                        {
+                            "name": "宝鸡",
+                            "cityId": 2
+                        }
+                    ]
+                },
+                {
+                    "prefix": "XYZ",
+                    "city": [
+                        {
+                            "name": "北京",
+                            "cityId": 1
+                        },
+                        {
+                            "name": "宝鸡",
+                            "cityId": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        "platForm": {
+            "current": 1,
+            "currentName": "平台1",
+            "list": [
+                {
+                    "name": "平台1",
+                    "platformId": 1
+                },
+                {
+                    "name": "平台2",
+                    "platformId": 2
+                },
+                {
+                    "name": "平台3",
+                    "platformId": 3
+                }
+            ]
+        },
+        "oneLevel": {
+            "current": 2,
+            "currentName": "一级栏目二",
+            "list": [
+                {
+                    "name": "一级栏目一",
+                    "oneLevelId": 1
+                },
+                {
+                    "name": "一级栏目二",
+                    "oneLevelId": 2
+                },
+                {
+                    "name": "一级栏目三",
+                    "oneLevelId": 3
+                }
+            ]
+        },
+        "twoLevel": {
+            "current": [1, 2, 4, 6],
+            "currentName": [],
+            "list": [
+                {
+                    "name": "二级栏目一",
+                    "twoLevelId": 1
+                },
+                {
+                    "name": "二级栏目二",
+                    "twoLevelId": 2
+                },
+                {
+                    "name": "二级栏目三",
+                    "twoLevelId": 3
+                }
+            ]
+        },
+        "screenIndex": {
+            "current": [1, 3, 4, 6],
+            "currentName": [],
+            "list": [
+                {
+                    "name": "首屏",
+                    "screenIndexId": 6
+                },
+                {
+                    "name": "二屏",
+                    "screenIndexId": 2
+                },
+                {
+                    "name": "首屏",
+                    "screenIndexId": 3
+                }
+            ]
+        },
+        "date": {
+            "current": {
+                "startTime": "20161015",
+                "endTime": "20161017"
+            },
+            "range": {
+                "startTime": "20161001",
+                "endTime": "20161030"
+            }
+        }
+    }
+}

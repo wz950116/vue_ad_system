@@ -1,0 +1,24 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "inviceType": "1",
+        "inviceTitle": "开票抬头",
+        "canUseMoney": "80900.00",
+        "inviceMoney": "2000",
+        "expressInfo":{
+            "contactMan": "李鹏",
+            "contactAddress": "北京市 海淀区 XX路XX号",
+            "contactTel": "18012345678"
+        },
+        "taxManInfo": {
+            "companyName": "碧桂园集团",
+            "bankAccount": "1798237893",
+            "openBank": "招商银行黄庄支行",
+            "taxManId": "1789379837",
+            "companyAddress": "北京市海淀学院路",
+            "companyTel": "6768768558",
+            "qualificationPic":"http://img2.focus.cn/thumb/180/bj/36548/b_365471342.jpg"
+        }
+    }
+}

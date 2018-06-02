@@ -1,0 +1,28 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "QualificationList": [
+            {
+                "qId": "1",
+                "qImgUrl": "http://imgs.focus.cn/upload/pics/38660/a_386590137.jpg",
+                "qDes": "范冰冰工作室授权协议"
+            },
+            {
+                "qId": "2",
+                "qImgUrl": "http://imgs.focus.cn/upload/pics/38660/a_386590137.jpg",
+                "qDes": "范冰冰工作室授权协议"
+            },
+            {
+                "qId": "3",
+                "qImgUrl": "http://imgs.focus.cn/upload/pics/38660/a_386590137.jpg",
+                "qDes": "范冰冰工作室授权协议"
+            }
+        ],
+        "pageInfo": {
+            "pageIndex": "1",
+            "pageSize": "5",
+            "totalNum": "100"
+        }
+    }
+}

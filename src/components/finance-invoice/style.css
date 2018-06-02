@@ -1,0 +1,267 @@
+.invoiceUpload {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background: url('./images/pic-background.png') no-repeat 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.invoiceUploaded {
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0;
+}
+
+.invoiceUploaded:hover {
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+
+.invoicePicWrap {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    vertical-align: top;
+}
+
+.invoicePic {
+    width: 200px;
+    height: 100px;
+}
+
+.finance-invoice {
+    background: #fafafa;
+    padding: 0 40px 60px;
+    overflow: hidden;
+}
+
+.invoice-info {
+    margin-top: 35px;
+    padding-right: 50px;
+}
+
+.submit-info {
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+.invoice-tlt {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 18px;
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.invoice-tlt-line {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e43;
+    margin-right: 3px;
+    vertical-align: 2px;
+}
+
+.invoice-desc {
+    font-size: 14px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.invoice-info-item {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+.invoice-info-tlt {
+    width: 70px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.invoice-info-tlt-long {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type="text"] {
+    width: 188px;
+    height: 38px;
+    line-height: 40px;
+    padding-left: 10px;
+    border: solid 1px #d5d5d5;
+}
+
+input[type="radio"] {
+    margin-right: 3px;
+    vertical-align: -1px;
+    opacity: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+label {
+    margin-right: 15px;
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.invoice-type {
+    background: url('./images/radio.png') no-repeat;
+    background-position: 0px 3px;
+}
+
+.invoice-type-active {
+    background: url('./images/radio-active.png') no-repeat;
+    background-position: 0px 3px;
+}
+
+.invoice-upload-wrap {
+    display: inline-block;
+    vertical-align: -117px;
+    position: relative;
+}
+
+.invoice-uploaded-wrap {
+    vertical-align: -92px;
+}
+
+.upload-desc {
+    width: 200px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+
+.upload-btn {
+    width: 200px;
+    height: 100px;
+    background: url('./images/add-pic.png') no-repeat #e7e7e7;
+    background-position: 77px 29px;
+    border: solid 1px #b5b5b5;
+    font-size: 42px;
+    cursor: pointer;
+}
+
+.upload-pic {
+    width: 200px;
+    height: 100px;
+}
+
+.upload-edit {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -96px;
+    left: 0;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.upload-mask {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: -97px;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.upload-edit-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('./images/edit-icon.png');
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+
+.save-btn {
+    width: 104px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #ff613e;
+    border: solid 1px #eb5237;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.edit-btn {
+    margin-left: 114px;
+    float: left;
+}
+
+.cacel-btn {
+    margin-left: 50px;
+}
+
+.save-btn:hover {
+    background: #eb5237;
+    cursor: pointer;
+}
+
+.error-info {
+    color: #e43;
+}
+
+.error-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('./images/error-icon.png') no-repeat;
+    vertical-align: -4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.right-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('./images/right-icon.png') no-repeat;
+    vertical-align: -4px;
+    margin-left: 8px;
+}
+
+.uploads {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -96px;
+    left: 0;
+    z-index: 500;
+}
+
+.flash-upload {
+    position: absolute;
+    left: 114px;
+}

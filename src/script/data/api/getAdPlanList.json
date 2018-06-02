@@ -1,0 +1,26 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "id": "1",
+                "name": "万科城市花园计划1",
+                "status": 0,
+                "status_text": "已结束"
+            },
+            {
+                "id": "2",
+                "name": "万科城市花园计划2",
+                "status": 1,
+                "status_text": "启动中"
+            },
+            {
+                "id": "3",
+                "name": "万科城市花园计划3",
+                "status": 0,
+                "status_text": "已结束"
+            }
+        ]
+    }
+}

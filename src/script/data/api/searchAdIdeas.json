@@ -1,0 +1,76 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "total": {
+            "count": 100,
+            "exposure_count": 65654667,
+            "click_count": 2352134,
+            "click_rate": 4.23,
+            "cost": 564235
+        },
+        "list": [
+            {
+                "id": "1",
+                "avatar": "http://img3.focus.cn/thumb/180/bj/38154/a_381531459.jpg",
+                "audit_status": 1,
+                "showStatus": 0,
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354,
+                "description": "东风恶",
+                "url": "",
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "orderInfo": {
+                    "name": "测试订单",
+                    "id": 1611000060
+                },
+                "link": "http://focus.cn"
+            },
+            {
+                "id": "2",
+                "avatar": "http://img3.focus.cn/thumb/180/bj/38154/a_381531459.jpg",
+                "audit_status": 1,
+                "showStatus": 0,
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354,
+                "url": "http://focus.cn",
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "orderInfo": {
+                    "name": "测试订单",
+                    "id": 1611000060
+                },
+                "link": "http://focus.cn"
+            },
+            {
+                "id": "3",
+                "avatar": "http://img3.focus.cn/thumb/180/bj/38154/a_381531459.jpg",
+                "audit_status": 1,
+                "showStatus": 0,
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354,
+                "url": "http://focus.cn",
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "orderInfo": {
+                    "name": "测试订单",
+                    "id": 1611000060
+                },
+                "link": "http://focus.cn"
+            }
+        ]
+    }
+}

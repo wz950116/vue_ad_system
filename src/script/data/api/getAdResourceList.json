@@ -1,0 +1,33 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "quota": 12398.73,
+        "list": [
+            {
+                "orderId": 1,
+                "name": "首页通栏",
+                "dateRange": {
+                    "startTime": "20161015",
+                    "endTime": "20161017"
+                },
+                "totalDays": 2,
+                "price": 240,
+                "totalPrice": 480,
+                "restTime": 300
+            },
+            {
+                "orderId": 2,
+                "name": "首页通栏",
+                "dateRange": {
+                    "startTime": "20161015",
+                    "endTime": "20161017"
+                },
+                "totalDays": 2,
+                "price": 240,
+                "totalPrice": 480,
+                "restTime": 300
+            }
+        ]
+    }
+}

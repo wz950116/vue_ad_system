@@ -1,0 +1,47 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "expose_count": 18779000,
+        "click_count": 12200,
+        "click_rate": 1.57,
+        "total_pay": 100000,
+        "dataset": [
+            {
+                "date": "2017-01-09",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-10",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-11",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-12",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-13",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-14",
+                "expose": 1321,
+                "click": 234
+            },
+            {
+                "date": "2017-01-15",
+                "expose": 1321,
+                "click": 234
+            }
+        ]
+    }
+}

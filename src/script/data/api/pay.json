@@ -1,0 +1,8 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "url": "http://www.sohu.com",
+        "flowNum": 1234
+    }
+}

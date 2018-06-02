@@ -1,0 +1,25 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "current": 0,
+        "list": [
+            {
+                "name": "一级栏目",
+                "oneLevelId": 0
+            },
+            {
+                "name": "一级栏目一",
+                "oneLevelId": 1
+            },
+            {
+                "name": "一级栏目二",
+                "oneLevelId": 2
+            },
+            {
+                "name": "一级栏目三",
+                "oneLevelId": 3
+            }
+        ]
+    }
+}

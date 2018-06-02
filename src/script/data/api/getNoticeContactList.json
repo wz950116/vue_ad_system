@@ -1,0 +1,26 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "emailList": [
+            {
+                "email": "zhangqifeng@sohu-inc.com",
+                "isCertificate": "true"
+            },
+            {
+                "email": "zhangqifeng2@sohu-inc.com",
+                "isCertificate": "false"   
+            }
+        ],
+        "mobileList": [
+            {
+                "mobile": "18312346578",
+                "isCertificate": "true"
+            },
+            {
+                "mobile": "18312346577",
+                "isCertificate": "false"   
+            }
+        ]
+    }
+}

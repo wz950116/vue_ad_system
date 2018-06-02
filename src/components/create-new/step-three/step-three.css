@@ -1,0 +1,89 @@
+/*.step-three .area-wrapper {
+    height: 300px;
+}*/
+
+
+.step-three .panel-content {
+    margin: 27px 0 0 0;
+}
+
+.step-three .unit-input {
+    width: 240px;
+}
+
+.step-three .date-pick {
+    width: 133px;
+    margin-right: 30px;
+}
+
+.step-three .price {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.limitMoney {
+    width: 200px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+.area-wrapper {
+    margin: 18px 0 0 0;
+}
+
+.area-item {
+    float: left;
+}
+
+.area-inner {
+    width: 198px;
+    border: 1px solid #D8D8D8;
+}
+
+.num {
+    color: #e43;
+}
+
+.inner-header {
+    background: #F8F8F8;
+    border-bottom: 1px solid #D8D8D8;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.inner-content {
+    height: 275px;
+    overflow-y: auto;
+}
+
+.area-m {
+    line-height: 317px;
+    margin: 0 15px;
+}
+
+.el-tree {
+    border: none;
+}
+
+.content-item {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.content-close {
+    position: absolute;
+    right: 14px;
+    background: url('../image/close.png') no-repeat center;
+    width: 9px;
+    height: 9px;
+    background-size: 100%;
+    top: 10px;
+    cursor: pointer;
+}
+
+.choosed {
+    margin: 6px 0 0 0;
+}

@@ -1,0 +1,17 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "companyName": "碧桂园集团",
+        "accountType": "企业用户",
+        "accountStateCode": "1",
+        "accountStateTxt": "审核未通过",
+        "societyCreditCode": "368461343136435",
+        "logMobile": "18021211121",
+        "contactManName": "王小明",
+        "contactMobile": "18312345678",
+        "contactQq": "4545454",
+        "contactMail": "41545464@qq.com",
+        "contactAddress": "北京-北京市-海淀区-科学院南路2号"
+    }
+}

@@ -1,0 +1,67 @@
+{
+	"listData": [{
+		"date": "2017-08-03",
+		"totalCost": 300000,
+		"inner_table": [{
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}]
+	}, {
+		"date": "2017-08-03",
+		"totalCost": 300000,
+		"inner_table": [{
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}]
+	}, {
+		"date": "2017-08-03",
+		"totalCost": 300000,
+		"inner_table": [{
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}]
+	}, {
+		"date": "2017-08-03",
+		"totalCost": 300000,
+		"inner_table": [{
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}, {
+			"date": "2017-08-03",
+			"adUnit": "首页首屏通栏",
+			"dayCost": 121300
+		}]
+	}]
+}

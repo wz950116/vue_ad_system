@@ -1,0 +1,84 @@
+.subtitle {
+    margin: 23px 0 0 0;
+}
+
+.info-content {
+    font-size: 12px;
+    margin: 16px 0 0 0;
+}
+
+.info-content span {
+    margin: 0 30px 0 0;
+}
+
+/*.info-content span:first-child {
+    margin: 0 0 0 0;
+}*/
+.resource-content {
+    margin: 21px 0 0 0;
+    font-size: 12px;
+}
+
+.img-w {
+    border: 1px solid #d5d5d5;
+    max-width: 100%;
+}
+
+.resource-inner-w {
+    margin: 19px 0 0 0;
+}
+
+.resource-item {
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+.resource-item:first-child {
+    margin: 0 0 0 0;
+}
+
+.deal-item {
+    font-size: 12px;
+    margin: 11px 0 0 0;
+}
+
+.deal-item span {
+    margin: 0 16px 0 0;
+}
+
+.deal-index {
+    font-size: 14px;
+}
+
+.preview {
+    padding: 4px 11px;
+}
+
+.btn-gr {
+    margin: 47px 0 0 0;
+}
+
+.btn-gr-left {
+    float: left;
+}
+
+.btn-gr-right {
+    float: right;
+}
+
+.hangqing {
+    margin-right: 20px;
+}
+
+.paihang {
+    margin:0 0 10px 0;
+}
+
+.paihang span {
+    margin: 0 0 0 15px;
+}
+
+.paihang span:first-child {
+    margin: 0 0 0 0;
+    font-size: 14px;
+}

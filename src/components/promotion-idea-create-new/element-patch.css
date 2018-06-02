@@ -1,0 +1,89 @@
+.idea-create-new .option-line .link input {
+    width: 150px;
+}
+
+.idea-create-new .option-line .normal-input input {
+    width: 181px;
+}
+
+.idea-create-new .el-dialog__header {
+    padding: 20px 20px 15px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.idea-create-new .el-dialog__body {
+    width: 710px;
+    padding: 23px 20px;
+}
+
+.idea-create-new .el-radio__inner {
+    width: 13px;
+    height: 13px;
+}
+
+.idea-create-new .el-radio__inner::after {
+    width: 4px;
+    height: 4px;
+}
+.idea-create-new  .el-radio__label {
+    font-size: 12px;
+}
+
+.idea-create-new .el-tooltip {
+    display: inline-block;
+    position: relative;
+    left: 4px;
+    top: 2px;
+    margin: 0 12px 0 0;
+}
+
+.idea-create-new .el-loading-mask {
+    z-index: 999999999;
+}
+
+.idea-create-new .idea-item textarea {
+    width: 250px;
+    height: 97px;
+    border-radius: 0;
+    resize: none;
+}
+
+.idea-create-new .el-form-item {
+    margin-bottom: 0;
+}
+
+.idea-create-new .luodi .el-input__icon+.el-input__inner {
+    padding-right: 0;
+}
+
+.idea-create-new .el-loading-spinner {
+    z-index: 3;
+}
+
+.idea-create-new .el-button--primary {
+    border-color: #eb5237;
+    background-color: #e43;
+}
+
+.idea-create-new .el-button--primary:focus, .idea-create-new .el-button--primary:hover {
+    background-color: #db3f2f;
+    border-color: #eb5237;
+}
+
+.idea-create-new .el-button--default:focus,.idea-create-new .el-button--default:hover {
+    color: #e43;
+    border-color: #e43;
+}
+
+.idea-create-new .el-button--text {
+    color: #e43;
+}
+
+.idea-create-new .el-button--text:focus, .idea-create-new .el-button--text:hover {
+    color: #db3f2f;
+}
+
+.idea-create-new .el-button--default {
+    border-color: #d5d5d5;
+    background-color: #f6f6f6;
+}

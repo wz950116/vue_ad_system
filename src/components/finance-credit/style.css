@@ -1,0 +1,115 @@
+.chargeCancel {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 14px;
+    background: url('./images/close.png') no-repeat 0px center;
+    float: right;
+    margin-right: 10px;
+}
+
+.chargeFinish {
+    display: inline-block;
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.addSub {
+    display: inline-block;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(213, 213, 213);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: -20px;
+    z-index: 100;
+    font-size: 0;
+}
+
+.finance-credit .layer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.finance-credit {
+    background: #fafafa;
+    padding: 0 40px 60px;
+    overflow: hidden;
+}
+
+.credit-info {
+    margin-top: 35px;
+    padding-right: 50px;
+}
+
+.submit-info {
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+.credit-tlt {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 18px;
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.credit-tlt-line {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e43;
+    margin-right: 3px;
+    vertical-align: 2px;
+}
+
+.credit-desc {
+    font-size: 14px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.credit-info-item {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+.credit-info-tlt {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.save-btn {
+    width: 104px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #ff613e;
+    border: solid 1px #eb5237;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.save-btn:hover {
+    background: #eb5237;
+    cursor: pointer;
+}

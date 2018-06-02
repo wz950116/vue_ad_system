@@ -1,0 +1,20 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "imgUrl": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=987537337,1771207271&fm=170&s=20D331C8C8010E454EDC2CB303008096&w=640&h=377&img.JPEG",
+        "id": 91293,
+        "type": ["北京", "焦点pc", "首页", "首页通栏", "首屏"],
+        "adWay": "图文",
+        "standard": ["180pi^210pi", "8字符以内文字"],
+        "requirement": "JPG、GIF",
+        "availableTime":
+        {
+            "available": true,
+            "startTime": 1480563720083,
+            "endTime": 1480846319120
+        },
+        "price": 2000,
+        "name": "首页二屏图文"
+    }
+}

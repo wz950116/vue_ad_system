@@ -1,0 +1,213 @@
+/**
+ * @description
+ * @author liangxiao
+ * @update 2015-07-02 liangxiao
+ */
+
+
+/* body */
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    font-size: 12px;
+    line-height: 1;
+    font-family: \5FAE\8F6F\96C5\9ED1, Helvetica;
+    color: #333333;
+}
+
+textarea::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+input::-webkit-text-cancel-button{
+    display: none;
+}
+
+input::-ms-clear{
+    display: none;
+}
+
+/* link */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus{outline:none;}
+
+/* 清除浮动 */
+.global-clearfix:after{
+    content:'.';
+    display:block;
+    visibility:hidden;
+    height:0;
+    line-height:0;
+    font-size:0;
+    clear:both;
+}
+.global-clearfix{
+    zoom:1;
+}
+
+
+.global-clear-spacing {
+    letter-spacing: -6px;
+}
+.global-clear-spacing * {
+    letter-spacing: normal;
+}
+
+
+.global-substring {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    border:1px solid #B3B2B2;
+    background-color: #D3D3D3;
+    -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:#B3B2B2;
+    -webkit-border-radius:5px;
+}
+
+
+
+/*********************************************fix bug**************************************************/
+.el-dialog--small {
+    width: auto !important;
+}
+.el-table .cell {
+    white-space: nowrap !important;
+}
+.el-loading-mask {
+    background-color: rgba(255,255,255,.3) !important;
+}
+/*********************************************fix bug end**********************************************/
+.header {
+    height: 60px;
+}
+.content {
+    background: #eff2f7;
+    overflow: hidden;
+}
+.content .left-slider{
+    width: 200px;
+    float: left;
+}
+
+.content .main-content{
+    height: 100%;
+    overflow-y: auto;
+    margin-left: 200px;
+    background: #FFF;
+}
+
+/* patches */
+.el-date-editor {
+    height: 40px;
+}
+.el-date-editor input {
+    height: 40px;
+    border-radius: 0;
+}
+
+/* pagenation redefine*/
+.el-pagination {
+    margin-top: 16px;
+    text-align: right;
+}
+.el-pager li {
+    margin-left: 10px;
+    font-size: 14px;
+    border-right: 1px solid #D3DCE6;
+}
+.el-pager li.active {
+    border-color: #e43;
+    background-color: #e43;
+    color: #fff;
+    cursor: default;
+}
+.el-pager li.active+li {
+    border-left: 1px solid #D3DCE6;
+}
+.el-pager li:hover {
+    color: #e43;
+}
+.el-pager li.active:hover {
+    color: #fff;
+}
+.el-pagination .btn-prev {
+    border-right: 1px solid #D3DCE6;
+}
+.el-pagination .btn-next {
+    margin-left: 10px;
+    border-left: 1px solid #D3DCE6;
+}
+.el-pagination .btn-prev:hover {
+    color: #e43;
+}
+.el-pagination .btn-next:hover {
+    color: #e43;
+}
+.placeholder-style {
+    position: absolute;
+    display: none;
+    color: #999;
+    letter-spacing: 0px;
+    font-size: 14px;
+    z-index: 1;
+    text-align: left;
+}
+
+body .el-radio__inner.is-checked, body .el-checkbox__inner.is-checked {
+    border-color: #e43;
+    background: #e43;
+}
+
+body .el-radio__inner:not(.is-disabled):hover {
+    border-color: #e43;
+}
+
+body .el-input__inner:hover {
+    border-color: #e43;
+}
+
+body .el-select-dropdown__item.selected {
+    background-color: #e43;
+}
+
+body .el-select-dropdown__item.selected.hover {
+    background-color: #db3f2f;
+}
+
+body .el-checkbox__inner.is-focus, body .el-checkbox__inner:not(.is-disabled):hover, body .el-select:hover .el-input__inner, body .el-select .el-input__inner:focus, body .el-input__inner:focus, body .el-textarea__inner:hover, body .el-textarea__inner:focus {
+    border-color: #e43;
+}
+
+body .el-radio__inner, body .el-checkbox__inner, body .el-input__inner, body .el-textarea__inner {
+    border-color: #d5d5d5;
+}
+
+body .el-loading-spinner .path {
+    stroke: #e43;
+}
+
+body .el-loading-spinner .el-loading-text {
+    color: #e43;
+}

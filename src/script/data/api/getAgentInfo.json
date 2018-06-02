@@ -1,0 +1,13 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "today_cost": 1100000,
+        "total_cost": 100000,
+        "account_left": 1000000,
+        "expose_count": 18779000,
+        "click_count": 12200,
+        "click_rate": 1.57,
+        "total_pay": 100000
+    }
+}

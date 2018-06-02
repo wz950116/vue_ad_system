@@ -1,0 +1,322 @@
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.filter-line {
+    margin-top: 20px;
+}
+
+.filter-line input {
+    font-size: 14px;
+    border: 1px #d5d5d5 solid;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    min-width: 100px;
+    outline: none;
+}
+
+.filter-line .filter-search {
+    font-size: 0;
+}
+
+.filter-line .keyword-input {
+    min-width: 210px;
+    font-size: 14px;
+    padding: 0 40px 0 10px;
+    background-color: #F6F6F6;
+    /*background-repeat: no-repeat;
+    background-position: right 6px center;
+    background-image: url('./images/search.png');*/
+}
+
+.filter-line .search-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 0 0 0 -32px;
+    vertical-align: -8px;
+    cursor: pointer;
+    background-image: url('./images/search.png');
+}
+
+.filter-time .splitter {
+    margin: 0 4px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.promotion-idea-table {
+    padding: 0 40px;
+    min-height: 320px;
+}
+
+.menu-line,
+.filter-line {
+    height: 40px;
+}
+
+.filter-line .left {
+    margin-right: 34px;
+}
+
+.menu-line .left {
+    margin-right: 21px;
+}
+
+.menu-line .right,
+.filter-line .right {
+    margin-left: 20px;
+}
+
+.menu-line a {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border: 1px #d5d5d5 solid;
+    border-radius: 2px;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.menu-line-new span {
+    color: #e43;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.plan-table {}
+
+.plan-table .table-title {
+    font-size: 14px;
+    font-family: microsoft yahei;
+    color: #4A4A4A;
+    height: 30px;
+    line-height: 30px;
+}
+
+.plan-table-wrapper {
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    margin: 20px 0 0 0;
+}
+
+.plan-table-wrapper .table-header {
+    height: 42px;
+    line-height: 42px;
+    background-color: #F8F8F8;
+    font-size: 0;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.plan-table-wrapper .table-header .column {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'microsoft yahei';
+    font-weight: 500;
+    color: #333333;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.plan-table-wrapper .column.check-box {
+    width: 5%;
+}
+
+.plan-table-wrapper .column.column-1 {
+    width: 6.25%;
+}
+
+.plan-table-wrapper .column.column-2 {
+    width: 8.25%;
+}
+
+.plan-table-wrapper .column.column-3 {
+    width: 6.25%;
+}
+
+.plan-table-wrapper .column.column-4 {
+    width: 6.25%;
+}
+
+.plan-table-wrapper .column.column-5 {
+    width: 9%;
+}
+
+.plan-table-wrapper .column.column-6 {
+    width: 9%;
+}
+
+.plan-table-wrapper .column.column-7 {
+    width: 10%;
+}
+
+.plan-table-wrapper .column.column-8 {
+    width: 10%;
+}
+
+.plan-table-wrapper .column.column-9 {
+    width: 10%;
+}
+
+.plan-table-wrapper .column.column-10 {
+    width: 10%;
+}
+
+.plan-table-wrapper .column.column-11 {
+    width: 10%;
+}
+
+.plan-table-wrapper .column a {
+    color: #4990E2;
+    text-decoration: underline;
+}
+
+.plan-table-wrapper .check-box .icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url('./images/icon.png');
+    background-size: 15px 15px;
+}
+
+.plan-table-wrapper .check-box .icon.select {
+    background: url('./images/icon-select.png');
+    background-size: 15px 15px;
+}
+
+.plan-table-wrapper .table-header .column .text {}
+
+.plan-table-wrapper .table-column {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 0;
+}
+
+.plan-table-wrapper .table-column:nth-child(2n + 1) {
+    background-color: #F8F8F8;
+}
+
+.plan-table-wrapper .table-column:hover {
+    background-color: #FAF3E1;
+}
+
+.plan-table-wrapper .table-column .column {
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #D8D8D8;
+    font-size: 12px;
+    font-family: 'microsoft yahei';
+    color: #666666;
+    box-sizing: border-box;
+}
+
+.plan-table-wrapper .table-column .column.column-1 {}
+
+
+/*.plan-table-wrapper .table-column .column.column-2 {
+    font-size: 0;
+}*/
+
+.plan-table-wrapper .table-column .column.column-3 {}
+
+.plan-table-wrapper .table-column .column.column-4 {
+    font-size: 0;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-notice-switch {
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #4398ed;
+    vertical-align: middle;
+    position: relative;
+    -webkit-transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-notice-switch-trans {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-disable {
+    background-color: #F6F6F6;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-disable .task-notice-switch-off {
+    background-color: #F6F6F6;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-notice-switch-off {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border: 1px solid #fff;
+    border-radius: 26px;
+    background-color: #fff;
+    vertical-align: middle;
+    -webkit-transition: right .2s ease-in-out;
+}
+
+.plan-table-wrapper .table-column .column.column-4 .task-notice-switch-trans .task-notice-switch-off {
+    right: 23px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px #ccc;
+}
+
+.plan-table-wrapper .table-column .column.column-5 {}
+
+.plan-table-wrapper .table-column .column.column-6 {}
+
+.plan-table-wrapper .table-column .column.column-7 {}
+
+.plan-table-wrapper .table-column .column.column-8 {}
+
+.plan-table-wrapper .table-column .column.column-9 {}
+
+.plan-table-wrapper .table-column .column.column-10 {}
+
+.plan-table-wrapper .table-column .column.column-11 {}
+
+.plan-table-wrapper .table-column.block .column {
+    border-right: 1px solid #EEEEEE;
+}
+
+.plan-table-wrapper .table-column.block .column:last-child {
+    border-right: none;
+}
+
+.plan-table-wrapper .table-column.block:last-child .column {
+    border-bottom: none;
+}
+
+.status-select {
+    width: 167px;
+}
+
+.promotion-idea-table .menu-line .disabled {
+    color: #ccc;
+}

@@ -1,0 +1,595 @@
+.addEstate-Wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    display: none;
+}
+
+.dalog-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -500px;
+    width: 1000px;
+    height: 650px;
+    background-color: rgb(245, 246, 247);
+    border: 1px solid rgb(221, 221, 221);
+    display: none;
+}
+
+.addEstate-header {
+    height: 59px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 57px;
+    margin-left: 19px;
+}
+
+.chooseEstate {
+    font-size: 14px;
+    color: #fc634d;
+    font-weight: bold;
+    margin-left: 160px;
+}
+
+.addInfo {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 159px;
+}
+
+.waitCheck {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 151px;
+}
+
+.stepOn {
+    color: #fc634d;
+    font-weight: bold;
+}
+
+.step {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 0;
+    height: 20px;
+}
+
+.stepLineOne {
+    display: inline-block;
+    width: 278px;
+    background-color: rgb(252, 99, 77);
+    height: 2px;
+    vertical-align: middle;
+}
+
+.stepLineTwo {
+    display: inline-block;
+    width: 494px;
+    background-color: rgb(252, 99, 77);
+    height: 2px;
+    margin-top: 9px;
+}
+
+.stepLineThree {
+    display: inline-block;
+    width: 704px;
+    background-color: rgb(252, 99, 77);
+    height: 2px;
+    margin-top: 9px;
+}
+
+.stepMarkOneBig {
+    background: url('./images/1-big.png') no-repeat 0px 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.stepMarkOneSmall {
+    background: url('./images/1-small.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 278px;
+    width: 20px;
+    height: 20px;
+}
+
+.stepMarkTwoBig {
+    background: url('./images/2-big.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 494px;
+}
+
+.stepMarkTwoSmall {
+    background: url('./images/2-small.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 494px;
+}
+
+.stepMarkTwoGrey {
+    background: url('./images/2-small-grey.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 494px;
+}
+
+.stepMarkThree {
+    background: url('./images/3-big.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 704px;
+}
+
+.stepMarkThreeGrey {
+    background: url('./images/3-small-grey.png') no-repeat 0px center;
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 704px;
+}
+
+.addEstate-content {
+    width: 958px;
+    height: 494px;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 19px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.select {
+    height: 90px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.slectStyle {
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    margin-top: 26px;
+    margin-right: 10px;
+}
+
+.m-l-123 {
+    margin-left: 123px;
+}
+
+.search {
+    height: 18px;
+    border: 1px solid rgb(221, 221, 221);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background: url('./images/search.png') no-repeat 10px center;
+    width: 319px;
+    font-size: 14px;
+    margin-top: 26px;
+}
+
+.buttonSearch {
+    height: 38px;
+    border: 1px solid rgb(221, 221, 221);
+    display: inline-block;
+    background-color: rgb(248, 248, 248);
+    font-size: 14px;
+    line-height: 38px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.addEstate-footer {
+    position: absolute;
+    width: 1001px;
+    height: 58px;
+    border-top: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.cancel {
+    width: 128px;
+    border-right: 1px solid rgb(221, 221, 221);
+    text-align: center;
+    line-height: 58px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bg-red {
+    width: 128px;
+    text-align: center;
+    line-height: 58px;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(252, 99, 77);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.bg-grey {
+    width: 128px;
+    text-align: center;
+    line-height: 58px;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.list-wrap {
+    margin: 20px 44px;
+    margin-bottom: 10px;
+}
+
+.list {
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 72px;
+}
+
+.redio {
+    width: 15px;
+    height: 15px;
+    margin-left: 19px;
+    display: inline-block;
+    background: url('./images/redio.png') no-repeat 0px 0px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.estateName {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.estateNameText {
+    max-width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.estateAddress {
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 800px;
+}
+
+.list-right {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    vertical-align: middle;
+}
+
+.estateTag {
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    margin-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 650px;
+}
+
+.hide {
+    display: none;
+}
+
+.form {
+    margin-left: 108px;
+    margin-top: 19px;
+}
+
+.formLine {
+    height: 40px;
+}
+
+.m-t-25 {
+    margin-top: 25px;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.required {
+    color: rgb(252, 99, 77);
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.inputLabel {
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.inputText {
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 12px 5px;
+    border: rgb(221, 221, 221) 1px solid;
+    vertical-align: middle;
+}
+
+.w-283 {
+    width: 283px;
+}
+
+.lenTip {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #999999;
+    margin-left: 79px;
+}
+
+.formSelect {
+    background-color: rgb(255, 255, 255);
+    width: 98px !important;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.w-488 {
+    width: 488px;
+    margin-top: 10px;
+    margin-left: 79px;
+}
+
+.propertyContent {
+    display: inline-block;
+    width: 700px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.propertyTag {
+    height: 16px;
+    float: left;
+    font-size: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+.propertyTagRedio {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('./images/redio1.png') no-repeat 0px 0px;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.propertyTagRedioSelect {
+    background: url('./images/redio1-select.png') no-repeat 0px 0px;
+}
+
+.propertyTagText {
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.v-t {
+    vertical-align: top;
+}
+
+.qulification {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.qulification-img {
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/qulification.png');
+}
+
+.qulification-img-tip {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    width: 324px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    line-height: 16px;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.qulification-upload {
+    width: 118px;
+    height: 40px;
+    background: url('./images/upload.png') no-repeat 0px 0px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.qulification-upload input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.upload-progress {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+.waitCheckTips {
+    height: 24px;
+    padding-left: 34px;
+    font-size: 14px;
+    background: url('./images/waitcheck.png') no-repeat 0px 0px;
+    display: inline-block;
+    line-height: 24px;
+    margin-top: 232px;
+    margin-left: 270px;
+}
+
+.redioSelect {
+    width: 15px;
+    height: 15px;
+    margin-left: 19px;
+    display: inline-block;
+    background: url('./images/redioSelect.png') no-repeat 0px 0px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.font-red {
+    color: rgb(252, 99, 77);
+    font-weight: bold;
+}
+
+.showDialog {
+    display: block;
+}
+
+.addQulification {
+    margin-top: 41px;
+    margin-left: 120px;
+}
+
+.l-h-42 {
+    line-height: 42px;
+}
+
+.multiSelect {
+    background-color: rgb(255, 255, 255);
+    width: 98px !important;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.p-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.prev,
+.next {
+    display: inline-block;
+    font-size: 14px;
+    color: #999999;
+    width: 42px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #efefef;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.page {
+    display: inline-block;
+    font-size: 14px;
+    color: #999999;
+    width: 28px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #efefef;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.totalPage {
+    font-size: 14px;
+    color: #999999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+}
+
+.page:hover,
+.prev:hover,
+.next:hover,
+.pageOn {
+    background-color: #fc634d;
+    color: #fff;
+}
+
+.pageHide {
+    display: none!important;
+}
+
+.t-align-c {
+    text-align: center;
+}
+
+.uploads {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

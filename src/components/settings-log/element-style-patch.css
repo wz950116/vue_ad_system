@@ -1,0 +1,116 @@
+.settings-log-wrapper .el-table th {
+    font-weight: #333;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.settings-log-wrapper .el-table__fixed-header-wrapper thead div, .el-table__header-wrapper thead div {
+    background-color: #fff; 
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: #fc634d;
+    color: #fff;
+}
+
+
+.settings-log-wrapper .el-table--enable-row-hover tr:hover>td {
+    background-color: #f8f8f8;
+}
+
+.settings-log-wrapper .el-table {
+    border-color: #dcdcdc;
+}
+
+.settings-log-wrapper .el-table td, .el-table th.is-leaf {
+    border-color: #dcdcdc;
+}
+
+.settings-log-wrapper .el-table--border td, .el-table--border th {
+    border-color: #dcdcdc;
+}
+
+.settings-log-wrapper .el-table--fit td.gutter, .el-table--fit th.gutter {
+    border-color: #dcdcdc;
+}
+
+.settings-log-wrapper .el-table::after, .el-table::before {
+    background-color: #dcdcdc;
+}
+
+.settings-log-wrapper .el-table--striped .el-table__body tr:nth-child(2n) td {
+    background: #f8f8f8;
+}
+
+/*.el-pagination__sizes {
+    position: absolute;
+    left: 0;
+    top: 0;
+}*/
+
+
+.settings-log-wrapper .el-loading-mask {
+    background-color: rgba(255,255,255,.9)!important;
+}
+
+.settings-log-wrapper .el-dropdown {
+    margin:0 43px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.settings-log-wrapper .el-dropdown:first-child {
+    margin: 0 164px 0 0;
+}
+
+.settings-log-wrapper .el-loading-spinner .el-loading-text {
+    color: #fc634d;
+}
+
+.el-select-dropdown__item.selected.hover {
+    background-color: #fc634d;
+}
+
+.settings-log-wrapper .el-loading-spinner .path {
+    stroke: #fc634d;
+}
+
+.el-select-dropdown__item.selected {
+    background-color: #fc634d;
+}
+
+.settings-log-wrapper .el-pager li.active {
+    background-color: #fc634d;
+    border-color: #fc634d;
+}
+
+.settings-log-wrapper .el-pagination__sizes .el-input .el-input__inner:hover {
+    border-color: #fc634d;
+}
+
+.settings-log-wrapper .el-pager li {
+    border-right: 1px solid #D3DCE6;
+}
+
+.settings-log-wrapper .el-pagination .btn-prev {
+    border-right: 1px solid #D3DCE6;
+}
+
+.settings-log-wrapper .el-pager li.active+li {
+    border-left: 1px solid #D3DCE6;
+    border-right: 1px solid #D3DCE6;
+}
+
+.settings-log-wrapper .el-pager li:hover {
+    color: #fc634d;
+
+}
+
+.settings-log-wrapper .el-pager li.active:hover {
+    color: #fff;
+
+}
+
+.settings-log-wrapper .el-pagination__editor:focus {
+    border-color: #fc634d;
+}

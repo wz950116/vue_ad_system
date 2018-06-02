@@ -1,0 +1,428 @@
+    .status-select {
+        float: right;
+        width: 100px !important;
+        margin: 10px 15px 0px 0px;
+        color: #333;
+    }
+
+    .header .header-help {
+        position: relative;
+        float: left;
+    }
+
+    .header .help-content:before, .message-content:before {
+        position: absolute;
+        display: block;
+        content: "";
+        left: 50%;
+        top: -6px;
+        width: 18px;
+        height: 6px;
+        margin-left: -9px;
+        background-image: url("./images/arrow.png");
+    }
+
+    .header .help-content {
+        position: absolute;
+        top: 58px;
+        left: 50%;
+        margin-left: -101px;
+        width: 202px;
+        height: 225px;
+        padding-top: 10px;
+        border: solid 1px #d5d5d5;
+        border-radius: 2px;
+        box-sizing: border-box;
+        background-color: #fff;
+        z-index: 1;
+    }
+
+    .header .header-help .help-btn {
+        display: block;
+        margin: 20px auto 0px auto;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        border: solid 1px #d5d5d5;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #f6f6f6;
+        font-size: 14px;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .header .header-help .help-btn:hover {
+        background-color: #ee4433;
+        border-color: #ee4433;
+        color: #fff;
+    }
+
+    .header .header-help .consult {
+        position: relative;
+        display: block;
+        margin: 20px 0px 10px 30px;
+        padding-left: 24px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .header .header-help .consult:before {
+        position: absolute;
+        display: block;
+        content: "";
+        left: 0px;
+        top: 50%;
+        width: 18px;
+        height: 19px;
+        margin-top: -9px;
+        background-image: url("./images/phone.png");
+    }
+
+    .header .header-help .phone {
+        text-align: center;
+        font-size: 14px;
+        color: #ee4433;
+    }
+
+    .header .header-message {
+        position: relative;
+        float: left;
+    }
+
+    .header .header-message .message-content {
+        position: absolute;
+        top: 58px;
+        left: 50%;
+        width: 402px;
+        margin-left: -201px;
+        border: solid 1px #d3d3d3;
+        border-radius: 2px;
+        box-sizing: border-box;
+        background-color: #fff;
+        z-index: 1;
+    }
+
+    .header .header-message .message-query {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .header .header-message .message-notice {
+        position: relative;
+        margin-left: 14px;
+        padding-left: 21px;
+        color: #5798e4;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
+    .header .header-message .message-notice:before {
+        position: absolute;
+        display: block;
+        content: "";
+        top: 50%;
+        left: 0px;
+        margin-top: -8px;
+        width: 16px;
+        height: 16px;
+        background-image: url("./images/guanli.png");
+    }
+
+    .header .header-message .message-item {
+        border-top: solid 1px #d3d3d3;
+        box-shadow: 0px -1px 1px #fff;
+    }
+
+    .header .header-message .message-title {
+        background-color: #f8f8f8;
+        padding: 13px 0px 0px 15px;
+        cursor: pointer;
+    }
+
+    .header .header-message .message-title.bg {
+        background-color: #fff;
+    }
+
+    .header .header-message .message-type {
+        position: relative;
+        padding-left: 20px;
+        font-size: 12px;
+        color: #ee4433;
+    }
+
+    .header .header-message .message-type:before {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 0px;
+        margin-top: -8px;
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-image: url("./images/notice.png");
+    }
+
+    .header .header-message .delete-message {
+        position: absolute;
+        top: 15px;
+        right: 7px;
+        padding-left: 17px;
+    }
+
+    .header .header-message .delete-message:before {
+        position: absolute;
+        display: block;
+        content: "";
+        left: 0px;
+        top: 50%;
+        margin-top: -6px;
+        width: 12px;
+        height: 12px;
+        background-image: url("./images/delete.png");
+    }
+
+    .header .header-message .message-name {
+        padding: 10px 0px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .header .header-message .message-name-title {
+        display: inline-block;
+        width: 205px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .header .header-message .message-name .date {
+        float: right;
+        color: #333;
+        margin-right: 15px;
+    }
+
+    .header .header-message .message-des {
+        padding: 0px 15px;
+        font-size: 12px;
+        color: #999;
+    }
+
+    .header .header-message .message-obj {
+        margin: 10px 0px 7px 0px;
+    }
+
+    .header .header-message .message-detail {
+        line-height: 18px;
+    }
+
+    .header .header-message .date {
+        margin-bottom: 10px;
+        text-align: right;
+    }
+
+    .header {
+        width: 100%;
+        height: 60px;
+        background-color: #4a90e2;
+        zoom: 1;
+        color: #fff;
+    }
+
+    .header .header-left {
+        float: left;
+        height: 60px;
+    }
+
+    .header .header-right {
+        float: right;
+        height: 60px;
+    }
+
+    .header .logo {
+        float: left;
+        width: 108px;
+        height: 31px;
+        border: none;
+        outline: none;
+        margin: 14px 0 0 20px;
+    }
+
+    .header .logo-title {
+        float: left;
+        height: 19px;
+        line-height: 19px;
+        font-size: 18px;
+        margin: 25px 0 0 10px;
+        padding: 0 0 0 13px;
+        border-left: 1px solid #fff;
+    }
+
+    .header .header-agent {
+        float: left;
+        padding-right: 20px;
+        height: 40px;
+        border-right: 1px solid #80b1ea;
+        margin-top: 10px;
+    }
+
+    .header .header-agent .name {
+        font-size: 16px;
+        height: 16px;
+        line-height: 16px;
+        padding-bottom: 10px;
+    }
+
+    .header .header-agent .tag-area {
+        height: 16px;
+        overflow: hidden;
+        zoom: 1;
+    }
+
+    .header .header-agent .tag-area .tag-item {
+        float: left;
+        color: #f4b955;
+        position: relative;
+        padding-left: 16px;
+        padding-right: 22px;
+    }
+
+    .header .header-agent .tag-area .tag-icon {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .header .header-agent .tag-area .tag-icon-jphy {
+        width: 11px;
+        height: 14px;
+        /*left: -11px;*/
+        background-image: url('./images/tag-jphy.png');
+    }
+
+    .header .header-agent .tag-area .tag-icon-vip {
+        width: 13px;
+        height: 13px;
+        /*left: -13px;*/
+        background-image: url('./images/tag-vip.png');
+
+    }
+
+    .header .header-user {
+        float: left;
+        height: 40px;
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-right: 28px;
+    }
+
+    .header .header-user .user-item {
+        height: 18px;
+        padding-left: 26px;
+        position: relative;
+        line-height: 18px;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .header .header-user .user-icon {
+        position: absolute;
+        width: 20px;
+        height: 18px;
+        top: 0;
+        left: 0;
+        background-image: url('./images/user-icon.png');
+    }
+
+    .header .header-user .user-account {
+        font-size: 12px;
+        color: #e4b562;
+    }
+
+    .header .header-btn {
+        color: #fff;
+        float: left;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        margin-top: 10px;
+        background-color: #4483e2;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        padding: 0 18px 0 50px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    .header .header-btn a {
+        color: #fff;
+    }
+
+    .header .header-btn-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
+
+    .header .header-btn-icon.header-btn-icon-notice {
+        width: 32px;
+        height: 26px;
+        top: 5px;
+        left: 15px;
+        display: inline-block;
+        background-image: url('./images/btn-notice.png');
+    }
+
+    .header .header-btn-icon.header-btn-icon-notice .notice-count {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        width: 18px;
+        line-height: 12px;
+        height: 12px;
+        font-size: 12px;
+        color: #f05546;
+        text-align: center;
+    }
+
+    .header .header-btn-icon.header-btn-icon-help {
+        width: 20px;
+        height: 23px;
+        top: 9px;
+        left: 21px;
+        background-image: url('./images/btn-help.png');
+
+    }
+
+    .header .header-btn-icon.header-btn-icon-accountSet {
+        width: 32px;
+        height: 26px;
+        left: 15px;
+        top: 8px;
+        background-image: url('./images/btn-accountSet.png');
+    }
+
+    .header .btn-exit {
+        color: #fff;
+        float: left;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        width: 115px;
+        text-align: center;
+        margin-top: 10px;
+        border-left: 1px solid #80b1ea;
+    }
+
+    .message-page {
+        height: 60px;
+        border-top: solid 1px #d5d5d5;
+    }
+
+    .message-page .el-pagination {
+        text-align: center;
+        margin-top: 14px;
+    }

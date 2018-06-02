@@ -1,0 +1,54 @@
+.pay-dialog .el-dialog__body {
+    border-top: 1px solid #d5d5d5;
+    /*width: 490px;*/
+    margin: 30px 0 0 0;
+    padding: 30px 35px;
+}
+
+.pay-dialog .self-dialog {
+    border-top: 1px solid #d5d5d5;
+    width: 490px;
+
+}
+
+.pay-dialog .dialog-text {
+    line-height: 25px;
+    color: #333;
+}
+
+.pay-dialog .text-red {
+    color: #e43;
+}
+
+.pay-dialog .dialog-link {
+    line-height: 25px;
+    color: #e43;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pay-dialog .dialog-footer {
+    margin: 22px 0 7px 0;
+}
+
+.pay-dialog .dialog-btn {
+    width: 201px;
+    padding: 12px 20px;
+}
+
+.pay-dialog .dialog-btn-red {
+    background: #e43;
+    color: #fff;
+    border: 1px solid #e43;
+}
+
+.pay-dialog .dialog-btn-red:hover {
+    background: #db3f2f;
+}
+
+.pay-dialog .dialog-btn-full {
+    width: 100%;
+    margin: 0;
+}

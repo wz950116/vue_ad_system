@@ -1,0 +1,10 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "resourceId": "13323232",
+        "resourceName": "首开国风美唐",
+        "checkState": "未通过",
+        "checkStateCode": "1"//1:未通过  2：已通过
+    }
+}

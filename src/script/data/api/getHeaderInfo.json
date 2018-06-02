@@ -1,0 +1,14 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "companyId": "1",
+        "companyName": "xxx公司",
+        "vipLevel": "gold",
+        "vipStatus": "1",
+        "userRole": "administrator",
+        "accountId": "18512345678",
+        "noticeNum": "18",
+        "userType": 0
+    }
+}

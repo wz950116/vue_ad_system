@@ -1,0 +1,128 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "positionName": "首页一屏通栏",
+                "average": 821729,
+                "price": 2500,
+                "totalDay": 30,
+                "releaseDay": 25,
+                "status": 1, 
+                "startTime": 1480563720083,
+                "endTime": 1481078317120,
+                "imgUrl": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=987537337,1771207271&fm=170&s=20D331C8C8010E454EDC2CB303008096&w=640&h=377&img.JPEG",
+                "width": 180,
+                "height": 210,
+                "recordList": [
+                    {
+                        "recordid": 1,
+                        "companyid": 1,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 1
+                    },
+                    {
+                        "recordid": 2,
+                        "companyid": 2,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "positionName": "首页一屏通栏",
+                "average": 821727,
+                "price": 2400,
+                "totalDay": 30,
+                "releaseDay": 25,
+                "status": 1,
+                "startTime": 1480563720083,
+                "endTime": 1481078317120,
+                "imgUrl": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=987537337,1771207271&fm=170&s=20D331C8C8010E454EDC2CB303008096&w=640&h=377&img.JPEG",
+                "width": 180,
+                "height": 210,
+                "recordList": [
+                    {
+                        "recordid": 3,
+                        "companyid": 3,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 1
+                    },
+                    {
+                        "recordid": 4,
+                        "companyid": 4,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "positionName": "首页一屏通栏",
+                "average": 821733,
+                "price": 2300,
+                "totalDay": 30,
+                "releaseDay": 25,
+                "status": 1,
+                "startTime": 1480563720083,
+                "endTime": 1481078317120,
+                "imgUrl": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=987537337,1771207271&fm=170&s=20D331C8C8010E454EDC2CB303008096&w=640&h=377&img.JPEG",
+                "width": 180,
+                "height": 210,
+                "recordList": [
+                    {
+                        "recordid": 5,
+                        "companyid": 5,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 1
+                    },
+                    {
+                        "recordid": 6,
+                        "companyid": 6,
+                        "companyName": "搜狐",
+                        "planName": "一期推广计划",
+                        "planid": 2,
+                        "unitName": "首页二屏通栏",
+                        "releaseDay": 10,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120,
+                        "status": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

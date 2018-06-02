@@ -1,0 +1,58 @@
+/* 清除浮动 */
+.global-clearfix:after{
+    content:'.';
+    display:block;
+    visibility:hidden;
+    height:0;
+    line-height:0;
+    font-size:0;
+    clear:both;
+}
+.global-clearfix{
+    zoom: 1;
+}
+.global-clear{
+    clear: both;
+}
+
+.settings-log-wrapper {
+    padding: 40px;
+    background: #fafafa;
+    /*width: 1048px;*/
+}
+
+.table-w {
+    width: 100%;
+    margin: 11px 0 0 0;
+    position: relative;
+}
+
+.filters-w {
+    position: absolute;
+    top: 34px;
+    left: 19px;
+    z-index: 11;
+    /*background: #fafafa;*/
+}
+
+.log-filter-label {
+    font-size: 14px;
+    margin: 0 14px 0 0;
+}
+
+.content-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.settings-log-content {
+    margin: 29px 0 0 0;
+}
+
+.pagenation {
+    position: relative;
+}
+
+.dropdown-active {
+    color: #fc634d;
+}

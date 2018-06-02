@@ -1,0 +1,53 @@
+{
+    "code": 1,
+    "msg": "success",
+    "data": {
+        "invoiceList": [
+            {
+                "invoiceId": "123456789",
+                "invoicingDate": "2016.10.08",
+                "Money": "389000",
+                "type": "增值税普通发票",
+                "status": "已开",
+                "companyName": "碧桂园",
+                "invoiceAccountNum": "123456789",
+                "remarks": "备注备注"
+            },
+            {
+                "invoiceId": "123456789",
+                "invoicingDate": "2016.10.07",
+                "Money": "19000",
+                "type": "增值税普通发票",
+                "status": "已开",
+                "companyName": "万达集团",
+                "invoiceAccountNum": "123456789",
+                "remarks": "备注备注"
+            },
+            {
+                "invoiceId": "123456789",
+                "invoicingDate": "2016.10.06",
+                "Money": "3000",
+                "type": "增值税普通发票",
+                "status": "已开",
+                "companyName": "碧桂园",
+                "invoiceAccountNum": "123456789",
+                "remarks": "备注备注"
+            },
+            {
+                "invoiceId": "123456789",
+                "invoicingDate": "2016.10.05",
+                "Money": "1000",
+                "type": "增值税普通发票",
+                "status": "未开",
+                "companyName": "碧桂园",
+                "invoiceAccountNum": "123456789",
+                "remarks": "备注备注"
+            }
+        ],
+        "pageInfo": {
+            "pageIndex": "1",
+            "pageSize": "5",
+            "totalNum": "100"
+        }
+    }
+}

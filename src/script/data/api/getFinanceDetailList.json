@@ -1,0 +1,37 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "detailList": [
+            {
+                "serialNumber": "1200129",
+                "date": "2016.10.08",
+                "overage": "598464554",
+                "inMoney": "1544353",
+                "outMoney": "1544353",
+                "remarks": "备注备注"
+            },
+            {
+                "serialNumber": "2912001",
+                "date": "2016.10.07",
+                "overage": "594554",
+                "inMoney": "1544353",
+                "outMoney": "1544353",
+                "remarks": "0910消耗"
+            },
+            {
+                "serialNumber": "9120012",
+                "date": "2016.10.06",
+                "overage": "464554",
+                "inMoney": "1544353",
+                "outMoney": "1544353",
+                "remarks": "备注备注"
+            }
+        ],
+        "pageInfo": {
+            "pageIndex": "1",
+            "pageSize": "5",
+            "totalNum": "100"
+        }
+    }
+}

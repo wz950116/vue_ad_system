@@ -1,0 +1,40 @@
+.step-wrapper {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 40px;
+}
+
+.panel {
+    margin: 27px 0 0 0;
+}
+
+.panel:first-child {
+    margin: 0;
+}
+
+.panel-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 12px 0;
+}
+
+.panel .panel-header-l {
+    float: left;
+}
+
+.panel .panel-header-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*icon*/
+.icon-question {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 5px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    background: url('./image/question.png') no-repeat;
+    background-size: 100%;
+}
+

@@ -1,0 +1,32 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "uid": 101101101,
+        "type": 1,
+        "organizationName": "焦点",
+        "provinceId": 1,
+        "cityId": 1,
+        "zoneId": 1,
+        "addressDetail": "融科资讯",
+        "organizationCode": "43413143141",
+        "licenceUrl": "http://img2.f.itc.cn/esf/21672/220x165_216721168.jpg",
+        "authorizationUrl": "http://img2.f.itc.cn/esf/21672/220x165_216721168.jpg",
+        "contactName": "谭晓灿",
+        "cardType": 1,
+        "cardNo": "510723199007195415",
+        "jobDescription": "研发",
+        "mobile": "13333333333",
+        "verifyCode": "",
+        "email": "13333333333@sohu-inc.com",
+        "qq": "133333333",
+        "accountName": "嘿咻",
+        "introduction": "不知从什么时候开始，对一片沉寂的冬天，以及纷扬洁白的雪花，生出了一种极其厌恶的情绪。所以，当又一个冬天悄然来临的时候，当无数片莹洁淡素的雪花轻盈飞舞的时候，当寂冬莹雪在许多人的文字篇章里轻舞飞扬的时候，我只默不作声的看着，却只一眼，便觉寒意",
+        "headUrl": "http://img2.f.itc.cn/esf/21672/220x165_216721168.jpg",
+        "document": "不知从什么时候开始，对一片沉寂的冬天，以及纷扬洁白的雪花，生出了一种极其厌恶的情绪。所以，当又一个冬天悄然来临的时候，当无数片莹洁淡素的雪花轻盈飞舞的时候，当寂冬莹雪在许多人的文字篇章里轻舞飞扬的时候，我只默不作声的看着，却只一眼，便觉寒意顺势侵入了骨髓，无形中一种恐惧已悄无声息的爬上了心头，冬来了，雪飘了，而天，亦是那么那么的寒冷……",
+        "status": 1,
+        "rejectReason": "审核失败原因",
+        "createTime": 1479872741000,
+        "updateTime": 1479872745000
+    }
+}

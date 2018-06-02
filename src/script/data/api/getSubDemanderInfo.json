@@ -1,0 +1,51 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "name": "绿地集团北京公司",
+        "valid_status": 1,
+        "quota_total": 8000,
+        "quota_left": 6000,
+        "plan_total": {
+            "expose_count": 65654667,
+            "click_count": 2352134,
+            "click_rate": 4.23,
+            "cost": 564235
+        },
+        "plan_list": [
+            {
+                "id": "1",
+                "name": "万科城市花园计划1",
+                "url": "http://focus.cn",
+                "status": 1,
+                "budget": 120130567,
+                "expose_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354
+            },
+            {
+                "id": "2",
+                "name": "万科城市花园计划2",
+                "url": "http://focus.cn",
+                "status": 1,
+                "budget": 120130567,
+                "expose_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354
+            },
+            {
+                "id": "3",
+                "name": "万科城市花园计划3",
+                "url": "http://focus.cn",
+                "status": 1,
+                "budget": 120130567,
+                "expose_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "cost": 2335354
+            }
+        ]
+    }
+}

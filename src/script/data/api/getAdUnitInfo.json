@@ -1,0 +1,26 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "id": "1",
+        "name": "首页通栏",
+        "plan_id": "123",
+        "plan_name": "万科城市花园计划一",
+        "can_cancel": 1,
+        "start_date": "2016-10-16",
+        "end_date": "2016-11-26",
+        "city_code": "bj",
+        "city": "北京",
+        "platform_code": 1,
+        "platform": "PC",
+        "screen_code": 1,
+        "screen": "首屏",
+        "charge_way_code": 1,
+        "charge_way": "CPD",
+        "type_code": 1,
+        "type": "图文",
+        "spec": "201pi*180pi+8字符以内文字",
+        "release_mode_code": 1,
+        "release_mode": "随机投放"
+    }
+}

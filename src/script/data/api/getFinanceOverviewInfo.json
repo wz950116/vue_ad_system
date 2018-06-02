@@ -1,0 +1,44 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "accountId": "18512345678",
+        "accountOverage": "1200",
+        "totalUse": "4000",
+        "canUseOverage": "4000",
+        "totalRecharge": "4000",
+        "totalGift": "1000",
+        "accountName": "碧桂园集团",
+        "cashbackTxt": "返现文案返现文案返现文案返现文案返现文案返现文案",
+        "rechargeList": [
+            {
+                "value": "5000",
+                "uint": "元",
+                "back": "",
+                "backUint": "",
+                "isYh": "false"
+            },
+            {
+                "value": "8000",
+                "uint": "元",
+                "back": "1980",
+                "backUint": "元",
+                "isYh": "true"
+            },
+            {
+                "value": "10000",
+                "uint": "元",
+                "back": "",
+                "backUint": "",
+                "isYh": "false"
+            },
+            {
+                "value": "20000",
+                "uint": "元",
+                "back": "",
+                "backUint": "",
+                "isYh": "false"
+            }
+        ]
+    }
+}

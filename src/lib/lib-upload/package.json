@@ -1,0 +1,25 @@
+{
+    "scripts": {
+        "test": "webpack-dev-server --inline --hot --host 0.0.0.0",
+        "build": "node build/build.js"
+    },
+    "name": "lib-uploader",
+    "version": "0.0.7",
+    "description": "",
+    "main": "./dist/bundle.js",
+    "dependencies": {
+        "ora": "0.3.0",
+        "shelljs": "0.7.5",
+        "webpack": "^1.13.2",
+        "webpack-dev-middleware": "^1.8.3",
+        "webpack-dev-server": "^1.16.2",
+        "webpack-hot-middleware": "^2.12.2",
+        "webpack-merge": "^0.14.1"
+    },
+    "devDependencies": {},
+    "keywords": [],
+    "author": {
+        "name": "luobata"
+    },
+    "license": "2016-2016"
+}

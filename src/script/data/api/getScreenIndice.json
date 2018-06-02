@@ -1,0 +1,21 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "current": [],
+        "list": [
+            {
+                "name": "首屏",
+                "screenIndexId": 6
+            },
+            {
+                "name": "二屏",
+                "screenIndexId": 2
+            },
+            {
+                "name": "首屏",
+                "screenIndexId": 3
+            }
+        ]
+    }
+}

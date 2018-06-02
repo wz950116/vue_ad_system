@@ -1,0 +1,69 @@
+.finance-charge-table
+{
+    overflow: hidden;
+
+    padding-top: 5px;
+}
+.table-box
+{
+    width: 100%;
+    margin-top: 30px;
+    /*margin-left: 41px;*/
+}
+
+.table-box .t-header-line
+{
+    /*width: 100%;*/
+    height: 42px;
+
+    border: 1px solid #d8d8d8;
+    background: #f8f8f8;
+}
+
+.table-box .t-header-line .header
+{
+    font-size: 14px;
+
+    height: 42px;
+
+    text-align: center;
+
+    color: #333;
+}
+
+.table-box .t-list-line
+{
+    height: 38px;
+
+    border: 1px solid #d8d8d8;
+}
+
+.table-box .t-list-line:hover
+{
+    background:rgba(224,224,224,0.3)
+}
+
+.table-box .t-list-line .td
+{
+    font-size: 14px;
+
+    text-align: center;
+    letter-spacing: 0;
+
+    color: #666;
+    border-right: 1px solid #eee;
+}
+
+.table-box .greyline
+{
+    background: #f8f8f8;
+}
+
+.table-box .whiteline
+{
+    background: #fff;
+}
+
+.page-block{
+    margin-top: 35px;
+}

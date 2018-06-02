@@ -1,0 +1,41 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "id": "1",
+        "name": "万科城市花园计划1",
+        "desc": "万科城市花园计划1是……",
+        "status": 1,
+        "status_text": "使用中",
+        "budget_mode": 1,
+        "budget_mode_text": "总预算",
+        "budget_total": 5000,
+        "budget_cost": 200,
+        "units": [
+            {
+                "id": "1",
+                "name": "广告单元A",
+                "status": 1,
+                "status_text": "创意素材已通过"
+            },
+            {
+                "id": "2",
+                "name": "广告单元B",
+                "status": 2,
+                "status_text": "创意素材未通过"
+            },
+            {
+                "id": "3",
+                "name": "广告单元C",
+                "status": 3,
+                "status_text": "创意素材未上传"
+            },
+            {
+                "id": "4",
+                "name": "广告单元D",
+                "status": 4,
+                "status_text": "创意素材审核中"
+            }
+        ]
+    }
+}

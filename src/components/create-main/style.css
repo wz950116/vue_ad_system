@@ -1,0 +1,399 @@
+.top-root {
+    position: relative;
+    height: 100%;
+    background-color: #f5f6f7;
+}
+.wrap {
+    background-color: #FFF;
+    display: block;
+    width: 1000px;
+}
+.wrap .tab-wrap {
+    border-top: solid 1px #DDD;
+    border-left: solid 1px #DDD;
+    white-space: nowrap;
+    position: relative;
+    height: 57px;
+}
+.wrap .tab-wrap .logo-name {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 20px;
+    left: 18px;
+    top: 18px;
+}
+.wrap .tab-wrap .tab {
+    display: inline-block;
+    padding-bottom: 21px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 22px;
+    line-height: 14px;
+    font-size: 14px;
+    width: 136px;
+    float: left;
+}
+.wrap .tab-wrap .gray {
+    color: #808080;
+}
+.wrap .tab-wrap .orange {
+    color: #FC634D;
+}
+.wrap .tab-wrap .tab1 {
+    margin-left: 219px;
+}
+.wrap .tab-wrap .tab2 {
+
+}
+
+.wrap .line-wrap {
+    white-space: nowrap;
+    position: relative;
+}
+.wrap .line-wrap .line {
+    background-color: #F5F6F7;
+    border-top: solid 2px;
+    display: inline-block;
+    float: left;
+}
+.wrap .line-wrap .gray {
+    border-color: #CCC;
+}
+.wrap .line-wrap .orange {
+    color: #FC634D;
+}
+.wrap .line-wrap .line1 {
+    width: 288px;
+}
+.wrap .line-wrap .line2 {
+    width: 136px;
+}
+.wrap .line-wrap .line3 {
+    width: 136px;
+}
+.wrap .line-wrap .line4 {
+    width: 136px;
+}
+.wrap .line-wrap .line5 {
+    width: 304px;
+}
+
+
+.wrap .line-wrap .circle {
+    background-color: #FFF;
+    position: absolute;
+    text-align: center;
+}
+.wrap .line-wrap .small {
+    border-radius: 50%;
+    border: solid 2px;
+    margin-left: -8px;
+    line-height: 12px;
+    height: 12px;
+    width: 12px;
+    top: -8px;
+}
+.wrap .line-wrap .big {
+    border-radius: 50%;
+    margin-left: -10px;
+    border: solid 2px;
+    line-height: 16px;
+    height: 16px;
+    width: 16px;
+    top: -10px;
+}
+.wrap .line-wrap .orange {
+    border-color: #FC634D;
+    color: #FC634D;
+}
+.wrap .line-wrap .gray {
+    border-color: #CCC;
+    color: #CCC;
+}
+.wrap .line-wrap .circle1 {
+    left: 288px;
+}
+.wrap .line-wrap .circle2 {
+    left: 424px;
+}
+.wrap .line-wrap .circle3 {
+    left: 560px;
+}
+.wrap .line-wrap .circle4 {
+    left: 696px;
+}
+.create-footer{
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    /*margin-bottom: 30px;*/
+    background: #fff;
+    border-top: 1px solid #ddd;
+    /*border-bottom: none;*/
+    box-sizing: border-box;
+}
+/*底部栏*/
+.footer-wrap{
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 60px;
+}
+.wrap-left{
+    float: left;
+    height: 100%;
+}
+.wrap-right{
+    float: right;
+    height: 100%;
+}
+.footer-wrap .btn{
+    float: left;
+    width: 130px;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    /*border-bottom: none;*/
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+.wrap-left .btn{
+    border-left: none;
+}
+.wrap-right .btn{
+    border-right: none;
+}
+.wrap-right .btn:first-child {
+    border-left: 1px solid #ddd;
+}
+.wrap-right .hot{
+    background: #fc634d;
+    border-color: #fc634d;
+    color: #fff;
+}
+.wrap-left .btn .num{
+    display: inline-block;
+    margin-left: 6px;
+    width: 15px;
+    height: 15px;
+    background: #fc634d;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+    vertical-align: baseline;
+}
+
+/*已选资源列表*/
+.create-popup-wrap{
+    /*display: none;*/
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 588px;
+}
+.popup-sList{
+    /*display: none;*/
+}
+.popup-sList .sTable{
+    width: 100%;
+}
+.sTable tr{
+    height: 45px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.sTable td{
+    overflow: hidden;
+}
+.sTable .t-head{
+    height: 32px;
+    background: #f6f6f6;
+    line-height: 32px;
+    font-size: 12px;
+    color: #333;
+    /*padding: 0 21px;*/
+}
+
+.sTable .select-item{
+    padding-left: 20px;
+}
+.sTable .select-item .checkbox{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.sTable .select-item .checkbox.active{
+    background: url('./images/sList-arrow.png') #fc6246 no-repeat center;
+    border: 1px solid #fc6246;
+}
+
+.sTable th .cancel{
+    cursor: pointer;
+    float: right;
+    width: 20px;
+    text-align: right;
+}
+.sTable .opt-item{
+    padding-right: 20px;
+}
+.sTable .opt-item .del{
+    cursor: pointer;
+    float: left;
+    padding: 6px 10px;
+    background: #f6f6f6;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+}
+.sResult{
+    height: 73px;
+}
+.sResult .box{
+    float: right;
+    padding: 12px 20px 0 0;
+    line-height: 1.5;
+}
+.sResult .box .price-sum{
+    font-size: 14px;
+    color: #333;
+}
+.sResult .box .price-sum .num{
+    font-size: 18px;
+    color: #fc634d;
+}
+.sResult .box .tip{
+    font-size: 12px;
+    color: #333;
+}
+/*支付弹层*/
+.popup-paySure{
+    padding: 28px 0 8px;
+}
+.pTable{
+    width: 100%;
+}
+.pTable .name{
+    width: 130px;
+    padding-right: 31px;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    line-height: 34px;
+}
+.pTable .info{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.pTable .info .price-num{
+    font-size: 20px;
+    color: #fc634d;
+}
+.pTable .balance-item .info{
+    font-size: 14px;
+    color: #666;
+}
+.pTable .balance-item .info input{
+    display: inline-block;
+    width: 123px;
+    height: 38px;
+    padding-left: 10px;
+    border: 1px solid #d5d5d5;
+    font-size: 14px;
+    color: #333;
+    line-height: 38px;
+    outline: none;
+}
+.pTable .balance-item .info p{
+    display: inline-block;
+    padding: 0 20px;
+}
+.pTable .balance-item .info .tip{
+    font-size: 12px;
+    color: #999;
+}
+.pTable .balance-item .info .submit-btn{
+    display: inline-block;
+    width: 106px;
+    height: 40px;
+    background: #fc634d;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.el-dialog__body {
+    border-top: 1px solid #d5d5d5;
+    /*width: 490px;*/
+    margin: 30px 0 0 0;
+    padding: 30px 35px;
+}
+
+.self-dialog {
+    border-top: 1px solid #d5d5d5;
+    width: 490px;
+
+}
+
+.dialog-text {
+    line-height: 25px;
+    color: #333;
+}
+
+.text-red {
+    color: #e43;
+}
+
+.dialog-link {
+    line-height: 25px;
+    color: #e43;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dialog-footer {
+    margin: 22px 0 7px 0;
+}
+
+.dialog-btn {
+    width: 201px;
+    padding: 12px 20px;
+}
+
+.dialog-btn-red {
+    background: #e43;
+    color: #fff;
+    border: 1px solid #e43;
+}
+
+.dialog-btn-red:hover {
+    background: #db3f2f;
+}
+
+.dialog-btn-full {
+    width: 100%;
+    margin: 0;
+}

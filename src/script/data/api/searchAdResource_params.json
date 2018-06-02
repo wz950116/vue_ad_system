@@ -1,0 +1,9 @@
+{
+    "cityCode": 1, // 城市编号
+    "platform": 1, // 平台
+    "oneLevel": 1, // 一级栏目
+    "twoLevel": [2,4], // 二级栏目
+    "startDate": "20160512", // 开始时间
+    "endDate": "20160714", // 结束时间
+    "onlyAvailable": true // 是否只看所选日期范围内可预订广告位
+}

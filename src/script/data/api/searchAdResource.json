@@ -1,0 +1,474 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "startTime": 1480563720083,
+        "endTime": 1483151917120,
+        "list": [
+            {
+                "id": 2133,
+                "name": "首页1通栏",
+                "exposure": 821825,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 5,
+                        "startTime": 1480563720083,
+                        "endTime": 1481078317120
+                    },
+                    {
+                        "available": false,
+                        "total": 12,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 7,
+                        "startTime": 1481855917120,
+                        "endTime": 1482892717120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2130,
+                "name": "首页3通栏",
+                "exposure": 821826,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            },
+            {
+                "id": 2143,
+                "name": "首页2通栏",
+                "exposure": 821828,
+                "price": 2400,
+                "width": 180,
+                "height": 210,
+                "totalDays": 31,
+                "status": [
+                    {
+                        "available": true,
+                        "total": 26,
+                        "startTime": 1480563720083,
+                        "endTime": 1482892717120
+                    },
+                    {
+                        "available": false,
+                        "total": 7,
+                        "startTime": 1480563720083,
+                        "endTime": 1480563720083
+                    },
+                    {
+                        "available": true,
+                        "total": 1,
+                        "startTime": 1483151917120,
+                        "endTime": 1483151917120
+                    }
+                ]
+            }
+        ]
+    }
+}

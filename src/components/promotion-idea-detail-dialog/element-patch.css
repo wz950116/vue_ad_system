@@ -1,0 +1,38 @@
+.promotion-idea-detail-dialog .el-dialog__body {
+    width: 710px;
+    padding: 23px 20px;
+}
+
+.promotion-idea-detail-dialog .el-dialog__header {
+    padding: 20px 20px 15px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+
+.promotion-idea-detail-dialog .el-button--primary {
+    border-color: #eb5237;
+    background-color: #e43;
+}
+
+.promotion-idea-detail-dialog .el-button--primary:focus, .promotion-idea-detail-dialog .el-button--primary:hover {
+    background-color: #db3f2f;
+    border-color: #eb5237;
+}
+
+.promotion-idea-detail-dialog .el-button--default:focus,.promotion-idea-detail-dialog .el-button--default:hover {
+    color: #e43;
+    border-color: #e43;
+}
+
+.promotion-idea-detail-dialog .el-button--text {
+    color: #e43;
+}
+
+.promotion-idea-detail-dialog .el-button--text:focus, .promotion-idea-detail-dialog .el-button--text:hover {
+    color: #db3f2f;
+}
+
+.promotion-idea-detail-dialog .el-button--default {
+    border-color: #d5d5d5;
+    background-color: #f6f6f6;
+}

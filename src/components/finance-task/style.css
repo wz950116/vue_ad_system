@@ -1,0 +1,50 @@
+.finance-task {
+    position: relative;
+    margin: 50px;
+}
+
+.task-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /* 方便看效果 */
+}
+
+.small {
+    z-index: 100;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.task-info {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    top: 50px;
+    left: 50px;
+}
+
+.task-info-item {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+.task-info-tlt {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.square {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: red;
+}
+

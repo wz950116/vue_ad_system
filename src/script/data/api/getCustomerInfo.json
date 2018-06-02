@@ -1,0 +1,30 @@
+{
+    "code":200,
+    "msg":"success",
+    "data": {
+        "companyId": "1",
+        "name": "XXX公司",
+        "dataList": [
+            {
+                "name": "账户余额",
+                "value": "201805.45",
+                "uint": "元"
+            },
+            {
+                "name": "今日账户消耗",
+                "value": "451.87",
+                "uint": "元"
+            },
+            {
+                "name": "今日曝光",
+                "value": "120,897",
+                "uint": ""
+            },
+            {
+                "name": "今日点击",
+                "value": "78,653",
+                "uint": ""
+            }
+        ]
+    }
+}

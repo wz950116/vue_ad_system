@@ -1,0 +1,15 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "today_cost": 1100000,
+        "total_cost": 100000,
+        "account_left": 1000000,
+        "ad_statis": {
+            "releasing": 4,
+            "torelease": 4,
+            "finished": 3,
+            "canceled": 3
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "estateList": [
+            {
+                "resourceId": "14546511",
+                "resourceName": "碧桂园·长城河谷",
+                "auditStateTxt": "已通过",
+                "auditStateCode": "1",
+                "loupanLink":"#"
+            },
+            {
+                "resourceId": "14546511",
+                "resourceName": "碧桂园·长城河谷",
+                "auditStateTxt": "已通过",
+                "auditStateCode": "1",
+                "loupanLink":"#"
+            },
+            {
+                "resourceId": "14546511",
+                "resourceName": "碧桂园·长城河谷",
+                "auditStateTxt": "未通过",
+                "auditStateCode": "2",
+                "loupanLink":"#"
+            }
+        ],
+        "pageInfo": {
+            "pageIndex": "1",
+            "pageSize": "5",
+            "totalNum": "100"
+        }
+    }
+}

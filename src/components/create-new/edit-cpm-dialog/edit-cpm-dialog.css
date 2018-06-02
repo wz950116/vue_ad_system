@@ -1,0 +1,29 @@
+.bottom-edit {
+    border-bottom: 1px solid #ddd;
+}
+
+.bottom-edit-l {
+    float: left;
+}
+
+.bottom-edit-r {
+    float: right;
+}
+
+.bottom-edit-btn {
+    text-align: center;
+    width: 129px;
+    height: 59px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.edit-btn-sure {
+    background: #FF6247;
+    color: #fff;
+    border-color: #FF6247;
+}

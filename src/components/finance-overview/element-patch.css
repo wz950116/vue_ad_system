@@ -1,0 +1,54 @@
+.finance-overview .el-dialog__body {
+    border-top: 1px solid #d5d5d5;
+    /*width: 490px;*/
+    margin: 30px 0 0 0;
+    padding: 30px 35px;
+}
+
+.finance-overview .self-dialog {
+    border-top: 1px solid #d5d5d5;
+    width: 490px;
+
+}
+
+.finance-overview .dialog-text {
+    line-height: 25px;
+    color: #333;
+}
+
+.finance-overview .text-red {
+    color: #e43;
+}
+
+.finance-overview .dialog-link {
+    line-height: 25px;
+    color: #e43;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.finance-overview .dialog-footer {
+    margin: 22px 0 7px 0;
+}
+
+.finance-overview .dialog-btn {
+    width: 201px;
+    padding: 12px 20px;
+}
+
+.finance-overview .dialog-btn-red {
+    background: #e43;
+    color: #fff;
+    border: 1px solid #e43;
+}
+
+.finance-overview .dialog-btn-red:hover {
+    background: #db3f2f;
+}
+
+.finance-overview .dialog-btn-full {
+    width: 100%;
+    margin: 0;
+}

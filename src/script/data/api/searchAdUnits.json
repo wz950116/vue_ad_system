@@ -1,0 +1,68 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "total": {
+            "count": 100,
+            "exposure_count": 65654667,
+            "click_count": 2352134,
+            "click_rate": 4.23,
+            "totalBudget": 342352,
+            "cost": 564235
+        },
+        "totalCount": 44,
+        "list": [
+            {
+                "id": "1",
+                "name": "首页首屏通栏",
+                "url": "http://focus.cn",
+                "status": 1,
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "startDate": "2016/11/08",
+                "endDate": "2016/11/11",
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "budget_cost": 110345034,
+                "cost": 2335354
+            },
+            {
+                "id": "2",
+                "name": "首页首屏通栏",
+                "url": "http://focus.cn",
+                "status": 1,
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "startDate": "2016/11/08",
+                "endDate": "2016/11/11",
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "budget_cost": 110345034,
+                "cost": 2335354
+            },
+            {
+                "id": "3",
+                "name": "首页首屏通栏",
+                "url": "http://focus.cn",
+                "status": 1,
+                "planInfo": {
+                    "name": "天地之间",
+                    "id": 11
+                },
+                "startDate": "2016/11/08",
+                "endDate": "2016/11/11",
+                "exposure_count": 1234234,
+                "click_count": 2343452,
+                "click_rate": 3.43,
+                "budget_cost": 110345034,
+                "cost": 2335354
+            }
+        ]
+    }
+}

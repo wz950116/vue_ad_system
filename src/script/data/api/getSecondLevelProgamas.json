@@ -1,0 +1,20 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "list": [
+            {
+                "name": "二级栏目名称1",
+                "twoLevelId": 1
+            },
+            {
+                "name": "二级栏目名称2",
+                "twoLevelId": 2
+            },
+            {
+                "name": "二级栏目名称3",
+                "twoLevelId": 3
+            },
+        ]
+    }
+}

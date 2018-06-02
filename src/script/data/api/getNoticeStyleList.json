@@ -1,0 +1,32 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "noticeStyleList": [
+            {
+                "noticeTypeTxt": "系统消息",
+                "noticeTypeCode": "1",
+                "noticeName": "系统通知",
+                "webInMail": "true",
+                "email": "true",
+                "sms": "false"
+            },
+            {
+                "noticeTypeTxt": "审核消息",
+                "noticeTypeCode": "2",
+                "noticeName": "系统通知",
+                "webInMail": "false",
+                "email": "true",
+                "sms": "true"
+            },
+            {
+                "noticeTypeTxt": "审核消息",
+                "noticeTypeCode": "2",
+                "noticeName": "系统通知",
+                "webInMail": "true",
+                "email": "false",
+                "sms": "true"
+            }
+        ]
+    }
+}

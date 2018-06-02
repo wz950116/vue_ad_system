@@ -1,0 +1,22 @@
+{
+    "msg": "success",
+    "code": 200,
+    "data": {
+        "city": {
+            "list": [
+                {
+                    "name": "北京",
+                    "cityId": 3
+                },
+                {
+                    "name": "北京",
+                    "cityId": 4
+                },
+                {
+                    "name": "北京",
+                    "cityId": 4
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,354 @@
+.mask {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.pay-info {
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    z-index: 1;
+    background: #fff;
+    width: 389px;
+    border: solid 1px #d5d5d5;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+}
+.pay-info-top {
+    height: 49px;
+    border-bottom: solid 1px #d5d5d5;
+}
+.pay-info-main {
+    padding: 35px;
+}
+.pay-info-desc {
+    margin-bottom: 30px;
+}
+.pay-btn {
+    padding: 10px 24px;
+    background: #f6f6f6;
+    border:solid 1px #d5d5d5;
+    margin-top: 20px;
+}
+.pay-finish-btn {
+    float: left;
+    background: #ff6246;
+    border: solid 1px #e9533e;
+    color: #fff;
+}
+.pay-other-btn {
+    float: right;
+}
+.chargeCancel {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 14px;
+    background: url('./images/close.png') no-repeat 0px center;
+    float: right;
+    margin-right: 10px;
+}
+
+.chargeFinish {
+    display: inline-block;
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.addSub {
+    display: inline-block;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(213, 213, 213);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: -20px;
+    z-index: 100;
+    font-size: 0;
+}
+
+.finance-overview .layer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.finance-overview {
+    padding: 13px 40px 40px 0;
+}
+
+.finance-overview .finance-overview-section {
+    margin-left: 33px;
+    padding-bottom: 32px;
+}
+
+.finance-overview .finance-overview-recharge {
+    margin-left: 33px;
+    padding-top: 12px;
+    border-top: solid 1px #d8d8d8;
+}
+
+.finance-overview .money-group {
+    margin-top: 22px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.finance-overview .right {
+    margin-left: -3px;
+}
+
+.finance-overview .number {
+    font-family: "Arial";
+}
+
+.finance-overview .can-use {
+    margin-left: 23px;
+    font-size: 12px;
+}
+
+.finance-overview .item-inline {
+    display: inline-block;
+}
+
+.finance-overview .balance {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff613e;
+}
+
+.finance-overview .decimal-part {
+    margin-left: -6px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff613e;
+}
+
+.finance-overview .left-label-name {
+    width: 70px;
+}
+
+.finance-overview .account-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.finance-overview .recharge-value {
+    margin: 0px 5px 0 5px;
+    width: 138px;
+    height: 38px;
+    line-height: 40px;
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #333333;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.finance-overview .discount {
+    position: relative;
+    line-height: normal;
+}
+
+.finance-overview .discount:before {
+    position: absolute;
+    display: block;
+    content: "惠";
+    padding: 0px 1px;
+    right: 0px;
+    top: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #ff613e
+}
+
+.finance-overview .discount-back {
+    color: #4a90e2;
+}
+
+.finance-overview .recharge-value .select {
+    display: none;
+}
+
+.finance-overview .recharge-value.value-select {
+    position: relative;
+    border: solid 2px #ff613e;
+    width: 136px;
+    height: 36px;
+}
+
+.finance-overview .recharge-value.value-select:after {
+    display: block;
+    position: absolute;
+    content: "";
+    display: block;
+    right: 0px;
+    bottom: 0px;
+    width: 16px;
+    height: 13px;
+    background: url("./images/finance-overview-select.png") no-repeat;
+}
+
+.finance-overview .other-money {
+    margin: 0px 0px 0px 75px;
+    height: 60px;
+    line-height: 60px;
+    color: #333333;
+    background-color: #f1f1f1;
+    font-size: 0px;
+    letter-spacing: -4px;
+}
+
+.finance-overview .other-label {
+    display: inline-block;
+    margin: 0px 9px 0px 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.finance-overview .other-value {
+    width: 168px;
+    height: 38px;
+    padding-left: 10px;
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.finance-overview .other-sure {
+    width: 55px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: solid 1px #d8d8d8;
+    border-left: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.finance-overview .des {
+    margin-top: 7px;
+    margin-left: 75px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 21px;
+}
+
+.finance-overview .sure {
+    margin-top: 26px;
+    margin-left: 75px;
+    width: 104px;
+    height: 38px;
+    line-height: 38px;
+    border: solid 1px #e9533e;
+    background-color: #fc634d;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.finance-overview .money-group .item-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.finance-overview .recharge-value-group {
+    font-size: 0px;
+    letter-spacing: -4px;
+    margin-left: -5px;
+    overflow: hidden;
+}
+
+.recharge-float {
+    float: left;
+    line-height: 40px;
+}
+
+.error-info {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #e43;
+    vertical-align: middle;
+}
+
+.error-icon {
+    display: inline-block;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    background: url("./images/error-icon.png") no-repeat;
+    vertical-align: middle;
+}
+
+.finance-overview .lineHeightNormal {
+    line-height: normal;
+}
+
+.finance-overview .money-zhekou {
+    margin-left: 75px;
+    margin-top: 13px;
+}
+
+.finance-overview .table-header span,.table-content span {
+    display: inline-block;
+    font-size: 12px;
+    width: 136px;
+}
+
+.finance-overview .table-header span:last-child,.table-content span:last-child {
+    width: auto;
+}
+.finance-overview .table-header {
+    padding: 6px 23px 6px 17px;
+    border: 1px solid #bdbabb;
+    width: 612px;
+}
+
+.finance-overview .table-content {
+    margin: 21px 0 0 17px;
+}
+.finance-overview .money-item-header {
+    display: inline-block;
+}
+
+.finance-overview .money-item-content {
+    display: inline-block;
+}
+
+.finance-overview .other-money .sure {
+    letter-spacing: initial;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 5px;
+}
